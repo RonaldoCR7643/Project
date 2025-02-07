@@ -4,6 +4,8 @@ export const Context1 = createContext(null);
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticatewd, setIsAuthenticatewd] = useState(false);
+
   const [userCredentials, setCreds] = useState({
     email: "",
     password: "",
